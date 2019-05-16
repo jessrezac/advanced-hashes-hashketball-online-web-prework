@@ -210,7 +210,6 @@ def player_with_longest_name
       players << player
     end
   end
-  binding.pry
 
   players = players.sort do |a, b|
     a.size <=> b.size
