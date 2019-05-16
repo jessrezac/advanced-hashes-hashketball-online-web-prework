@@ -215,5 +215,6 @@ def player_with_longest_name
   players = players.sort do |a, b|
     a.size <=> b.size
   end
-  binding.pry
+
+  players[-1]
 end
